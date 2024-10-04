@@ -1,0 +1,19 @@
+{
+  "name": "power-up-api",
+  "version": "1.0.0",
+  "description": "a web app that stores Super Mario Power-ups",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Poirier",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "prisma": "^5.20.0"
+  }
+}
